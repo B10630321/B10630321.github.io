@@ -65,7 +65,27 @@ footer {
   }
 }
 </style>
+<style>
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+div.gallery:hover {
+  border: 1px solid #777;
+}
 
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+</style>
 <header>
   <h2 style="font-size:10vw">Who Am I<span style="color:red"> ?</h2>
 </header>
@@ -81,8 +101,13 @@ footer {
   
   <article>
     <h1 style="font-size:2vw">生活照</h1>
-   
-    <img src="https://scontent-hkg3-2.xx.fbcdn.net/v/t1.0-9/30414986_1692478604172719_6194797902737440768_n.jpg?_nc_cat=101&_nc_ht=scontent-hkg3-2.xx&oh=ee2fbbb195a5cc707c92f5843baa7c6c&oe=5D0A6585" width="200" height="200">
+
+
+<div class="gallery">
+  <a target="_blank" href="https://scontent-hkg3-2.xx.fbcdn.net/v/t1.0-9/30414986_1692478604172719_6194797902737440768_n.jpg?_nc_cat=101&_nc_ht=scontent-hkg3-2.xx&oh=ee2fbbb195a5cc707c92f5843baa7c6c&oe=5D0A6585">
+    <img src="https://scontent-hkg3-2.xx.fbcdn.net/v/t1.0-9/30414986_1692478604172719_6194797902737440768_n.jpg?_nc_cat=101&_nc_ht=scontent-hkg3-2.xx&oh=ee2fbbb195a5cc707c92f5843baa7c6c&oe=5D0A6585" alt="Cinque Terre" width="200" height="200">
+  </a>
+</div>
 
   </article>
 </section>
